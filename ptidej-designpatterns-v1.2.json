@@ -79,16 +79,20 @@
                         {
                            "roles": {
                               "directors": {
-                                 "director": {
-                                    "entity": "uml.ui.BuildAction",
-                                    "_roleKind": "Class"
-                                 }
+                                 "director": [
+                                    {
+                                       "entity": "uml.ui.BuildAction",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               },
                               "builders": {
-                                 "builder": {
-                                    "entity": "uml.builder.CodeBuilder",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "builder": [
+                                    {
+                                       "entity": "uml.builder.CodeBuilder",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteBuilders": {
                                  "concreteBuilder": [
@@ -211,10 +215,12 @@
                                  ]
                               },
                               "components": {
-                                 "component": {
-                                    "entity": "diagram.tool.Tool",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "component": [
+                                    {
+                                       "entity": "diagram.tool.Tool",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "composites": {
                                  "composite": [
@@ -297,10 +303,12 @@
                         {
                            "roles": {
                               "subjects": {
-                                 "subject": {
-                                    "entity": "diagram.tool.AbstractTool",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "subject": [
+                                    {
+                                       "entity": "diagram.tool.AbstractTool",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteSubjects": {
                                  "concreteSubject": [
@@ -391,10 +399,12 @@
                         {
                            "roles": {
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "uml.ui.IconManager",
-                                    "_roleKind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "uml.ui.IconManager",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "_number": "7"
@@ -415,16 +425,20 @@
                         {
                            "roles": {
                               "directors": {
-                                 "director": {
-                                    "entity": "com.jmonkey.office.lexi.Main.DocumentFrame",
-                                    "_roleKind": "Class"
-                                 }
+                                 "director": [
+                                    {
+                                       "entity": "com.jmonkey.office.lexi.Main.DocumentFrame",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               },
                               "builders": {
-                                 "builder": {
-                                    "entity": "com.jmonkey.office.lexi.support.Editor",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "builder": [
+                                    {
+                                       "entity": "com.jmonkey.office.lexi.support.Editor",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteBuilders": {
                                  "concreteBuilder": [
@@ -455,10 +469,12 @@
                         {
                            "roles": {
                               "subjects": {
-                                 "subject": {
-                                    "entity": "com.jmonkey.office.lexi.support.Editor",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "subject": [
+                                    {
+                                       "entity": "com.jmonkey.office.lexi.support.Editor",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteSubjects": {
                                  "concreteSubject": [
@@ -511,10 +527,12 @@
                         {
                            "roles": {
                               "subjects": {
-                                 "subject": {
-                                    "entity": "com.jmonkey.office.lexi.support.Editor",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "subject": [
+                                    {
+                                       "entity": "com.jmonkey.office.lexi.support.Editor",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteSubjects": {
                                  "concreteSubject": [
@@ -557,10 +575,12 @@
                         {
                            "roles": {
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "com.jmonkey.export.Registry",
-                                    "_roleKind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "com.jmonkey.export.Registry",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "_number": "11"
@@ -568,10 +588,12 @@
                         {
                            "roles": {
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "com.jmonkey.office.lexi.support.EditorActionManager",
-                                    "_roleKind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "com.jmonkey.office.lexi.support.EditorActionManager",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "_number": "12"
@@ -1291,10 +1313,12 @@
                         {
                            "roles": {
                               "directors": {
-                                 "director": {
-                                    "entity": "org.acm.seguin.ide.jbuilder.UMLNode",
-                                    "_roleKind": "Class"
-                                 }
+                                 "director": [
+                                    {
+                                       "entity": "org.acm.seguin.ide.jbuilder.UMLNode",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               },
                               "concreteBuilders": {
                                  "concreteBuilder": [
@@ -1318,10 +1342,12 @@
                         {
                            "roles": {
                               "directors": {
-                                 "director": {
-                                    "entity": "org.acm.seguin.refactor.method.ExtractMethodRefactoring",
-                                    "_roleKind": "Class"
-                                 }
+                                 "director": [
+                                    {
+                                       "entity": "org.acm.seguin.refactor.method.ExtractMethodRefactoring",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               },
                               "concreteBuilders": {
                                  "concreteBuilder": [
@@ -1368,10 +1394,12 @@
                                  ]
                               },
                               "creators": {
-                                 "creator": {
-                                    "entity": "com.borland.primetime.ide.NodeViewerFactory",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "creator": [
+                                    {
+                                       "entity": "com.borland.primetime.ide.NodeViewerFactory",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteCreators": {
                                  "concreteCreator": [
@@ -1394,10 +1422,12 @@
                         {
                            "roles": {
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "org.acm.seguin.uml.loader.ReloaderSingleton",
-                                    "_roleKind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "org.acm.seguin.uml.loader.ReloaderSingleton",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "_number": "33"
@@ -1405,10 +1435,12 @@
                         {
                            "roles": {
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "org.acm.seguin.ide.jbuilder.UMLNodeViewerFactory",
-                                    "_roleKind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "org.acm.seguin.ide.jbuilder.UMLNodeViewerFactory",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "_number": "34"
@@ -1431,10 +1463,12 @@
                                  ]
                               },
                               "states": {
-                                 "state": {
-                                    "entity": "org.acm.seguin.print.xml.State",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "state": [
+                                    {
+                                       "entity": "org.acm.seguin.print.xml.State",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteStates": {
                                  "concreteState": [
@@ -1494,10 +1528,12 @@
                         {
                            "roles": {
                               "visitors": {
-                                 "visitor": {
-                                    "entity": "org.acm.seguin.parser.JavaParserVisitor",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "visitor": [
+                                    {
+                                       "entity": "org.acm.seguin.parser.JavaParserVisitor",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteVisitors": {
                                  "concreteVisitor": [
@@ -1596,10 +1632,12 @@
                                  ]
                               },
                               "elements": {
-                                 "element": {
-                                    "entity": "org.acm.seguin.parser.Node",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "element": [
+                                    {
+                                       "entity": "org.acm.seguin.parser.Node",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteElements": {
                                  "concreteElement": [
@@ -1955,10 +1993,12 @@
                         {
                            "roles": {
                               "visitors": {
-                                 "visitor": {
-                                    "entity": "org.acm.seguin.summary.SummaryVisitor",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "visitor": [
+                                    {
+                                       "entity": "org.acm.seguin.summary.SummaryVisitor",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteVisitors": {
                                  "concreteVisitor": [
@@ -2017,10 +2057,12 @@
                                  ]
                               },
                               "elements": {
-                                 "element": {
-                                    "entity": "org.acm.seguin.summary.Summary",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "element": [
+                                    {
+                                       "entity": "org.acm.seguin.summary.Summary",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteElements": {
                                  "concreteElement": [
@@ -3992,10 +4034,12 @@
                                  ]
                               },
                               "iterators": {
-                                 "iterator": {
-                                    "entity": "org.openide.WizardDescriptor.Iterator",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "iterator": [
+                                    {
+                                       "entity": "org.openide.WizardDescriptor.Iterator",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteIterators": {
                                  "concreteIterator": [
@@ -4020,10 +4064,12 @@
                                  ]
                               },
                               "iterators": {
-                                 "iterator": {
-                                    "entity": "java.text.CharacterIterator",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "iterator": [
+                                    {
+                                       "entity": "java.text.CharacterIterator",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteIterators": {
                                  "concreteIterator": [
@@ -4071,10 +4117,12 @@
                                  ]
                               },
                               "iterators": {
-                                 "iterator": {
-                                    "entity": "java.text.CharacterIterator",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "iterator": [
+                                    {
+                                       "entity": "java.text.CharacterIterator",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteIterators": {
                                  "concreteIterator": [
@@ -4106,10 +4154,12 @@
                                  ]
                               },
                               "iterators": {
-                                 "iterator": {
-                                    "entity": "java.text.CharacterIterator",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "iterator": [
+                                    {
+                                       "entity": "java.text.CharacterIterator",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteIterators": {
                                  "concreteIterator": [
@@ -4141,10 +4191,12 @@
                                  ]
                               },
                               "iterators": {
-                                 "iterator": {
-                                    "entity": "java.text.CharacterIterator",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "iterator": [
+                                    {
+                                       "entity": "java.text.CharacterIterator",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteIterators": {
                                  "concreteIterator": [
@@ -4181,10 +4233,12 @@
                         {
                            "roles": {
                               "components": {
-                                 "component": {
-                                    "entity": "junit.framework.Test",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "component": [
+                                    {
+                                       "entity": "junit.framework.Test",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "composites": {
                                  "composite": [
@@ -4363,10 +4417,12 @@
                         {
                            "roles": {
                               "components": {
-                                 "component": {
-                                    "entity": "junit.framework.Test",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "component": [
+                                    {
+                                       "entity": "junit.framework.Test",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteComponents": {
                                  "concreteComponent": [
@@ -4545,10 +4601,12 @@
                                  ]
                               },
                               "aggregates": {
-                                 "aggregate": {
-                                    "entity": "junit.runner.TestCollector",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "aggregate": [
+                                    {
+                                       "entity": "junit.runner.TestCollector",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteAggregates": {
                                  "concreteAggregate": [
@@ -4563,10 +4621,12 @@
                                  ]
                               },
                               "iterators": {
-                                 "iterator": {
-                                    "entity": "java.util.Enumeration",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "iterator": [
+                                    {
+                                       "entity": "java.util.Enumeration",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteIterators": {
                                  "concreteIterator": [
@@ -4638,10 +4698,12 @@
                         {
                            "roles": {
                               "subjects": {
-                                 "subject": {
-                                    "entity": "java.awt.Component",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "subject": [
+                                    {
+                                       "entity": "java.awt.Component",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteSubjects": {
                                  "concreteSubject": [
@@ -4673,10 +4735,12 @@
                         {
                            "roles": {
                               "subjects": {
-                                 "subject": {
-                                    "entity": "java.awt.Component",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "subject": [
+                                    {
+                                       "entity": "java.awt.Component",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteSubjects": {
                                  "concreteSubject": [
@@ -4715,10 +4779,12 @@
                         {
                            "roles": {
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "junit.framework.Assert",
-                                    "_roleKind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "junit.framework.Assert",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "_number": "71"
@@ -4726,10 +4792,12 @@
                         {
                            "roles": {
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "junit.runner.Version",
-                                    "_roleKind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "junit.runner.Version",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "_number": "72"
@@ -5078,10 +5146,12 @@
                                  ]
                               },
                               "components": {
-                                 "component": {
-                                    "entity": "CH.ifa.draw.framework.Figure",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "component": [
+                                    {
+                                       "entity": "CH.ifa.draw.framework.Figure",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "composites": {
                                  "composite": [
@@ -5220,10 +5290,12 @@
                         {
                            "roles": {
                               "components": {
-                                 "component": {
-                                    "entity": "CH.ifa.draw.framework.Figure",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "component": [
+                                    {
+                                       "entity": "CH.ifa.draw.framework.Figure",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteComponents": {
                                  "concreteComponent": [
@@ -5318,10 +5390,12 @@
                                  ]
                               },
                               "decorators": {
-                                 "decorator": {
-                                    "entity": "CH.ifa.draw.standard.DecoratorFigure",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "decorator": [
+                                    {
+                                       "entity": "CH.ifa.draw.standard.DecoratorFigure",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteDecorators": {
                                  "concreteDecorator": [
@@ -5384,10 +5458,12 @@
                                  ]
                               },
                               "creators": {
-                                 "creator": {
-                                    "entity": "CH.ifa.draw.framework.Figure",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "creator": [
+                                    {
+                                       "entity": "CH.ifa.draw.framework.Figure",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteCreators": {
                                  "concreteCreator": [
@@ -5507,10 +5583,12 @@
                                  ]
                               },
                               "creators": {
-                                 "creator": {
-                                    "entity": "CH.ifa.draw.framework.Figure",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "creator": [
+                                    {
+                                       "entity": "CH.ifa.draw.framework.Figure",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteCreators": {
                                  "concreteCreator": [
@@ -5662,10 +5740,12 @@
                         {
                            "roles": {
                               "nullObjects": {
-                                 "nullObject": {
-                                    "entity": "CH.ifa.draw.standard.NullHandle",
-                                    "_roleKind": "Class"
-                                 }
+                                 "nullObject": [
+                                    {
+                                       "entity": "CH.ifa.draw.standard.NullHandle",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "_number": "80"
@@ -5680,10 +5760,12 @@
                         {
                            "roles": {
                               "subjects": {
-                                 "subject": {
-                                    "entity": "CH.ifa.draw.framework.Figure",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "subject": [
+                                    {
+                                       "entity": "CH.ifa.draw.framework.Figure",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteSubjects": {
                                  "concreteSubject": [
@@ -5863,10 +5945,12 @@
                         {
                            "roles": {
                               "subjects": {
-                                 "subject": {
-                                    "entity": "CH.ifa.draw.framework.Drawing",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "subject": [
+                                    {
+                                       "entity": "CH.ifa.draw.framework.Drawing",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteSubjects": {
                                  "concreteSubject": [
@@ -5902,10 +5986,12 @@
                         {
                            "roles": {
                               "subjects": {
-                                 "subject": {
-                                    "entity": "CH.ifa.draw.framework.Connector",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "subject": [
+                                    {
+                                       "entity": "CH.ifa.draw.framework.Connector",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteSubjects": {
                                  "concreteSubject": [
@@ -5972,10 +6058,12 @@
                                  ]
                               },
                               "prototypes": {
-                                 "prototype": {
-                                    "entity": "CH.ifa.draw.framework.ConnectionFigure",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "prototype": [
+                                    {
+                                       "entity": "CH.ifa.draw.framework.ConnectionFigure",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concretePrototypes": {
                                  "concretePrototype": [
@@ -6007,10 +6095,12 @@
                                  ]
                               },
                               "prototypes": {
-                                 "prototype": {
-                                    "entity": "CH.ifa.draw.framework.Figure",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "prototype": [
+                                    {
+                                       "entity": "CH.ifa.draw.framework.Figure",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concretePrototypes": {
                                  "concretePrototype": [
@@ -6125,10 +6215,12 @@
                         {
                            "roles": {
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "CH.ifa.draw.util.Clipboard",
-                                    "_roleKind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "CH.ifa.draw.util.Clipboard",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "_number": "85"
@@ -6136,10 +6228,12 @@
                         {
                            "roles": {
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "CH.ifa.draw.util.Iconkit",
-                                    "_roleKind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "CH.ifa.draw.util.Iconkit",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "_number": "86"
@@ -6162,10 +6256,12 @@
                                  ]
                               },
                               "states": {
-                                 "state": {
-                                    "entity": "CH.ifa.draw.framework.Tool",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "state": [
+                                    {
+                                       "entity": "CH.ifa.draw.framework.Tool",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteStates": {
                                  "concreteState": [
@@ -6249,10 +6345,12 @@
                                  ]
                               },
                               "states": {
-                                 "state": {
-                                    "entity": "CH.ifa.draw.framework.Tool",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "state": [
+                                    {
+                                       "entity": "CH.ifa.draw.framework.Tool",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteStates": {
                                  "concreteState": [
@@ -6284,10 +6382,12 @@
                                  ]
                               },
                               "states": {
-                                 "state": {
-                                    "entity": "CH.ifa.draw.framework.Tool",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "state": [
+                                    {
+                                       "entity": "CH.ifa.draw.framework.Tool",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteStates": {
                                  "concreteState": [
@@ -6592,10 +6692,12 @@
                         {
                            "roles": {
                               "abstractClasses": {
-                                 "abstractClass": {
-                                    "entity": "CH.ifa.draw.standard.AbstractFigure",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstractClass": [
+                                    {
+                                       "entity": "CH.ifa.draw.standard.AbstractFigure",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteClasses": {
                                  "concreteClass": [
@@ -6703,10 +6805,12 @@
                         {
                            "roles": {
                               "abstractClasses": {
-                                 "abstractClass": {
-                                    "entity": "CH.ifa.draw.figures.AttributeFigure",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstractClass": [
+                                    {
+                                       "entity": "CH.ifa.draw.figures.AttributeFigure",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteClasses": {
                                  "concreteClass": [
@@ -7015,10 +7119,12 @@
                                  ]
                               },
                               "components": {
-                                 "component": {
-                                    "entity": "com.taursys.xml.Component",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "component": [
+                                    {
+                                       "entity": "com.taursys.xml.Component",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "composites": {
                                  "composite": [
@@ -7134,10 +7240,12 @@
                         {
                            "roles": {
                               "facades": {
-                                 "facade": {
-                                    "entity": "com.taursys.servlet.ServletForm",
-                                    "_roleKind": "Class"
-                                 }
+                                 "facade": [
+                                    {
+                                       "entity": "com.taursys.servlet.ServletForm",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               },
                               "subsystemClasses": {
                                  "subsystemClass": [
@@ -7197,10 +7305,12 @@
                         {
                            "roles": {
                               "creators": {
-                                 "creator": {
-                                    "entity": "com.taursys.xml.ComponentFactory",
-                                    "_roleKind": "Abstract"
-                                 }
+                                 "creator": [
+                                    {
+                                       "entity": "com.taursys.xml.ComponentFactory",
+                                       "_roleKind": "Abstract"
+                                    }
+                                 ]
                               },
                               "conreteCreators": {
                                  "concreteCreator": [
@@ -7319,10 +7429,12 @@
                         {
                            "roles": {
                               "subjects": {
-                                 "subject": {
-                                    "entity": "com.taursys.xml.Component",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "subject": [
+                                    {
+                                       "entity": "com.taursys.xml.Component",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteSubjects": {
                                  "concreteSubject": [
@@ -7458,10 +7570,12 @@
                         {
                            "roles": {
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "com.taursys.debug.Debug",
-                                    "_roleKind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "com.taursys.debug.Debug",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "_number": "102"
@@ -7469,10 +7583,12 @@
                         {
                            "roles": {
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "com.taursys.html.HTMLComponentFactory",
-                                    "_roleKind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "com.taursys.html.HTMLComponentFactory",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "_number": "103"
@@ -7480,10 +7596,12 @@
                         {
                            "roles": {
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "com.taursys.tools.CodeGenerator",
-                                    "_roleKind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "com.taursys.tools.CodeGenerator",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "_number": "104"
@@ -7534,10 +7652,12 @@
                         {
                            "roles": {
                               "abstractClasses": {
-                                 "abstractClass": {
-                                    "entity": "com.taursys.xml.Component",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstractClass": [
+                                    {
+                                       "entity": "com.taursys.xml.Component",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteClasses": {
                                  "concreteClass": [
@@ -7621,10 +7741,12 @@
                         {
                            "roles": {
                               "abstractClasses": {
-                                 "abstractClass": {
-                                    "entity": "com.taursys.xml.Container",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstractClass": [
+                                    {
+                                       "entity": "com.taursys.xml.Container",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteClasses": {
                                  "concreteClass": [
@@ -7661,10 +7783,12 @@
                         {
                            "roles": {
                               "abstractClasses": {
-                                 "abstractClass": {
-                                    "entity": "com.taursys.xml.AbstractField",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstractClass": [
+                                    {
+                                       "entity": "com.taursys.xml.AbstractField",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteClasses": {
                                  "concreteClass": [
@@ -7709,10 +7833,12 @@
                         {
                            "roles": {
                               "abstractClasses": {
-                                 "abstractClass": {
-                                    "entity": "com.taursys.xml.event.Dispatcher",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstractClass": [
+                                    {
+                                       "entity": "com.taursys.xml.event.Dispatcher",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteClasses": {
                                  "concreteClass": [
@@ -7793,10 +7919,12 @@
                         {
                            "roles": {
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "net.nutch.io.NullWritable",
-                                    "_roleKind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "net.nutch.io.NullWritable",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comment": "Un peu facil les singletons ;-p",
@@ -7812,10 +7940,12 @@
                         {
                            "roles": {
                               "abstractions": {
-                                 "abstraction": {
-                                    "entity": "net.nutch.db.DistributedWebDBReader.EnumCall",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstraction": [
+                                    {
+                                       "entity": "net.nutch.db.DistributedWebDBReader.EnumCall",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "refinedAbstractions": {
                                  "refinedAbstraction": [
@@ -7834,10 +7964,12 @@
                                  ]
                               },
                               "implementors": {
-                                 "implementor": {
-                                    "entity": "java.util.Enumeration",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "implementor": [
+                                    {
+                                       "entity": "java.util.Enumeration",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteImplementors": {
                                  "concreteImplementor": [
@@ -7865,10 +7997,12 @@
                         {
                            "roles": {
                               "abstractions": {
-                                 "abstraction": {
-                                    "entity": "net.nutch.db.EditSectionGroupWriter.KeyExtractor",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstraction": [
+                                    {
+                                       "entity": "net.nutch.db.EditSectionGroupWriter.KeyExtractor",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "refinedAbstractions": {
                                  "refinedAbstraction": [
@@ -7891,10 +8025,12 @@
                                  ]
                               },
                               "implementors": {
-                                 "implementor": {
-                                    "entity": "net.nutch.io.WritableComparable",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "implementor": [
+                                    {
+                                       "entity": "net.nutch.io.WritableComparable",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteImplementors": {
                                  "concreteImplementor": [
@@ -8124,10 +8260,12 @@
                                  ]
                               },
                               "caretakers": {
-                                 "caretaker": {
-                                    "entity": "net.nutch.db.EditSectionGroupWriter",
-                                    "_roleKind": "Class"
-                                 }
+                                 "caretaker": [
+                                    {
+                                       "entity": "net.nutch.db.EditSectionGroupWriter",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comment": "Ici, nous avons trouve ce Memento par deduction a partir du\n\t\t\t\t\t\tCommand, trouve precedemment. Puisque par la definition, donne\n\t\t\t\t\t\tpar le GoF, un Command est sense encapsuler une requete sous\n\t\t\t\t\t\tforme d'objet. Nous pourrions donc, manipuler ces objets dans\n\t\t\t\t\t\tdes listes, les enregistrer, les supprimer, ..., et donc les\n\t\t\t\t\t\tmanipuler ulterieurement. D'ou l'idee que lorsque l'on trouve\n\t\t\t\t\t\tun Command, il pourrait avoir un Memento pas loin afin de gerer\n\t\t\t\t\t\tles requetes sous formes d'objets.",
@@ -8164,10 +8302,12 @@
                                  ]
                               },
                               "caretakers": {
-                                 "caretaker": {
-                                    "entity": "Originator",
-                                    "_roleKind": "Class"
-                                 }
+                                 "caretaker": [
+                                    {
+                                       "entity": "Originator",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comment": "Nous pensons etre en presence d'une structure presentant des\n\t\t\t\t\t\tsimilitudes avec un memento, mais pour l'instant nous\n\t\t\t\t\t\tn'avons pas encore pu determiner l'objet sense representer\n\t\t\t\t\t\tle Caretaker. Ce pourrait-il que l'objet Originator puisse\n\t\t\t\t\t\taussi jouer le role de Caretaker ??",
@@ -8183,10 +8323,12 @@
                         {
                            "roles": {
                               "abstractClasses": {
-                                 "abstractClass": {
-                                    "entity": "net.nutch.db.DistributedWebDBReader.EnumCall",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstractClass": [
+                                    {
+                                       "entity": "net.nutch.db.DistributedWebDBReader.EnumCall",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteClasses": {
                                  "concreteClass": [
@@ -8210,10 +8352,12 @@
                         {
                            "roles": {
                               "abstractClasses": {
-                                 "abstractClass": {
-                                    "entity": "net.nutch.db.DistributedWebDBWriter.CloseProcessor",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstractClass": [
+                                    {
+                                       "entity": "net.nutch.db.DistributedWebDBWriter.CloseProcessor",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteClasses": {
                                  "concreteClass": [
@@ -8241,10 +8385,12 @@
                         {
                            "roles": {
                               "abstractClasses": {
-                                 "abstractClass": {
-                                    "entity": "net.nutch.db.KeyExtractor",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstractClass": [
+                                    {
+                                       "entity": "net.nutch.db.KeyExtractor",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteClasses": {
                                  "concreteClass": [
@@ -8440,10 +8586,12 @@
                         {
                            "roles": {
                               "iterators": {
-                                 "iterator": {
-                                    "entity": "net.nutch.db.IWebDBReader",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "iterator": [
+                                    {
+                                       "entity": "net.nutch.db.IWebDBReader",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteIterators": {
                                  "concreteIterator": [
@@ -8458,10 +8606,12 @@
                                  ]
                               },
                               "aggregates": {
-                                 "aggregate": {
-                                    "entity": "net.nutch.db.IWebDBWriter",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "aggregate": [
+                                    {
+                                       "entity": "net.nutch.db.IWebDBWriter",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteAggregates": {
                                  "concreteAggregate": [
@@ -8547,16 +8697,20 @@
                         {
                            "roles": {
                               "directors": {
-                                 "director": {
-                                    "entity": "net.sourceforge.pmd.CommandLineOptions",
-                                    "_roleKind": "Class"
-                                 }
+                                 "director": [
+                                    {
+                                       "entity": "net.sourceforge.pmd.CommandLineOptions",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               },
                               "builders": {
-                                 "builder": {
-                                    "entity": "net.sourceforge.pmd.renderers.Renderer",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "builder": [
+                                    {
+                                       "entity": "net.sourceforge.pmd.renderers.Renderer",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteBuilders": {
                                  "concreteBuilder": [
@@ -8600,16 +8754,20 @@
                         {
                            "roles": {
                               "directors": {
-                                 "director": {
-                                    "entity": "net.sourceforge.pmd.ant.Formatter",
-                                    "_roleKind": "Class"
-                                 }
+                                 "director": [
+                                    {
+                                       "entity": "net.sourceforge.pmd.ant.Formatter",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               },
                               "builders": {
-                                 "builder": {
-                                    "entity": "net.sourceforge.pmd.renderers.CVSRenderer",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "builder": [
+                                    {
+                                       "entity": "net.sourceforge.pmd.renderers.CVSRenderer",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteBuilders": {
                                  "concreteBuilder": [
@@ -8672,10 +8830,12 @@
                                  ]
                               },
                               "components": {
-                                 "component": {
-                                    "entity": "net.sourceforge.pmd.ast.CharStream",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "component": [
+                                    {
+                                       "entity": "net.sourceforge.pmd.ast.CharStream",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "leaves": {
                                  "leaf": [
@@ -8711,10 +8871,12 @@
                                  ]
                               },
                               "components": {
-                                 "component": {
-                                    "entity": "net.sourceforge.pmd.ast.Node",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "component": [
+                                    {
+                                       "entity": "net.sourceforge.pmd.ast.Node",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "leaves": {
                                  "leaf": [
@@ -8737,10 +8899,12 @@
                         {
                            "roles": {
                               "creators": {
-                                 "creator": {
-                                    "entity": "net.sourceforge.pmd.symboltable.ScopeFactory",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "creator": [
+                                    {
+                                       "entity": "net.sourceforge.pmd.symboltable.ScopeFactory",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteCreators": {
                                  "concreteCreator": [
@@ -8800,10 +8964,12 @@
                         {
                            "roles": {
                               "creators": {
-                                 "creator": {
-                                    "entity": "net.sourceforge.pmd.TargetJDKVersion",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "creator": [
+                                    {
+                                       "entity": "net.sourceforge.pmd.TargetJDKVersion",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteCreators": {
                                  "concreteCreator": [
@@ -8835,10 +9001,12 @@
                         {
                            "roles": {
                               "creators": {
-                                 "creator": {
-                                    "entity": "net.sourceforge.pmd.TargetJDKVersion",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "creator": [
+                                    {
+                                       "entity": "net.sourceforge.pmd.TargetJDKVersion",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteCreators": {
                                  "concreteCreator": [
@@ -8881,10 +9049,12 @@
                         {
                            "roles": {
                               "iterators": {
-                                 "iterator": {
-                                    "entity": "java.lang.Iterator",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "iterator": [
+                                    {
+                                       "entity": "java.lang.Iterator",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteIterators": {
                                  "concreteIterator": [
@@ -8895,10 +9065,12 @@
                                  ]
                               },
                               "aggregates": {
-                                 "aggregate": {
-                                    "entity": "org.jaxen.DefaultNavigator",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "aggregate": [
+                                    {
+                                       "entity": "org.jaxen.DefaultNavigator",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteAggregates": {
                                  "concreteAggregate": [
@@ -8921,16 +9093,20 @@
                         {
                            "roles": {
                               "proxies": {
-                                 "proxy": {
-                                    "entity": "net.sourceforge.pmd.ast.JavaParser",
-                                    "_roleKind": "Class"
-                                 }
+                                 "proxy": [
+                                    {
+                                       "entity": "net.sourceforge.pmd.ast.JavaParser",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               },
                               "subjects": {
-                                 "subject": {
-                                    "entity": "net.sourceforge.pmd.ast.JavaParserConstants",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "subject": [
+                                    {
+                                       "entity": "net.sourceforge.pmd.ast.JavaParserConstants",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "realSubjects": {
                                  "realSubject": [
@@ -8953,10 +9129,12 @@
                         {
                            "roles": {
                               "abstractClasses": {
-                                 "abstractClass": {
-                                    "entity": "org.apache.tools.ant.Task",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstractClass": [
+                                    {
+                                       "entity": "org.apache.tools.ant.Task",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteClasses": {
                                  "concreteClass": [
@@ -8979,10 +9157,12 @@
                         {
                            "roles": {
                               "subjects": {
-                                 "subject": {
-                                    "entity": "net.sourceforge.pmd.util.viewer.model.ViewerModel",
-                                    "_roleKind": "class"
-                                 }
+                                 "subject": [
+                                    {
+                                       "entity": "net.sourceforge.pmd.util.viewer.model.ViewerModel",
+                                       "_roleKind": "class"
+                                    }
+                                 ]
                               },
                               "concreteSubjects": {
                                  "concreteSubject": [
@@ -9072,16 +9252,20 @@
                         {
                            "roles": {
                               "elements": {
-                                 "element": {
-                                    "entity": "net.sourceforge.pmd.ast.Node",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "element": [
+                                    {
+                                       "entity": "net.sourceforge.pmd.ast.Node",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "objectStructures": {
-                                 "objectStructure": {
-                                    "entity": "net.sourceforge.pmd.ast.SimpleNode",
-                                    "_roleKind": "Class"
-                                 }
+                                 "objectStructure": [
+                                    {
+                                       "entity": "net.sourceforge.pmd.ast.SimpleNode",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               },
                               "concreteElements": {
                                  "concreteElement": [
@@ -9092,10 +9276,12 @@
                                  ]
                               },
                               "visitors": {
-                                 "visitor": {
-                                    "entity": "net.sourceforge.pmd.ast.JavaParserVisitor",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "visitor": [
+                                    {
+                                       "entity": "net.sourceforge.pmd.ast.JavaParserVisitor",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteVisitors": {
                                  "concreteVisitor": [
@@ -9140,10 +9326,12 @@
                                  ]
                               },
                               "creators": {
-                                 "creator": {
-                                    "entity": "src.FactoryMethod.After.LoggerFactory",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "creator": [
+                                    {
+                                       "entity": "src.FactoryMethod.After.LoggerFactory",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteCreators": {
                                  "concreteCreator": [
@@ -9246,10 +9434,12 @@
                                  ]
                               },
                               "prototypes": {
-                                 "prototype": {
-                                    "entity": "src.PROTOTYPE.Permission",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "prototype": [
+                                    {
+                                       "entity": "src.PROTOTYPE.Permission",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concretePrototypes": {
                                  "concretePrototype": [
@@ -9272,16 +9462,20 @@
                         {
                            "roles": {
                               "directors": {
-                                 "director": {
-                                    "entity": "src.BUILDER.UIDirector",
-                                    "_roleKind": "Class"
-                                 }
+                                 "director": [
+                                    {
+                                       "entity": "src.BUILDER.UIDirector",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               },
                               "builders": {
-                                 "builder": {
-                                    "entity": "src.BUILDER.HIBuilder",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "builder": [
+                                    {
+                                       "entity": "src.BUILDER.HIBuilder",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteBuilders": {
                                  "concreteBuilder": [
@@ -9324,10 +9518,12 @@
                                  ]
                               },
                               "components": {
-                                 "component": {
-                                    "entity": "src.COMPOSITE.FileSystemComponent",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "component": [
+                                    {
+                                       "entity": "src.COMPOSITE.FileSystemComponent",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "composites": {
                                  "composite": [
@@ -9362,10 +9558,12 @@
                         {
                            "roles": {
                               "visitors": {
-                                 "visitor": {
-                                    "entity": "src.VISITOR.OrderVisitor",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "visitor": [
+                                    {
+                                       "entity": "src.VISITOR.OrderVisitor",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteVisitors": {
                                  "concreteVisitor": [
@@ -9412,10 +9610,12 @@
                                  ]
                               },
                               "iterators": {
-                                 "iterator": {
-                                    "entity": "src.ITERATOR.External.CertifiedCandidates",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "iterator": [
+                                    {
+                                       "entity": "src.ITERATOR.External.CertifiedCandidates",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteIterators": {
                                  "concreteIterator": [
@@ -9438,22 +9638,28 @@
                         {
                            "roles": {
                               "flyweightfactories": {
-                                 "flyweightfactory": {
-                                    "entity": "src.FLYWEIGHT.Approach1.FlyweightFactory",
-                                    "_roleKind": "Class"
-                                 }
+                                 "flyweightfactory": [
+                                    {
+                                       "entity": "src.FLYWEIGHT.Approach1.FlyweightFactory",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               },
                               "flyweights": {
-                                 "flyweight": {
-                                    "entity": "src.FLYWEIGHT.Approach1.VCard",
-                                    "_roleKind": "Class"
-                                 }
+                                 "flyweight": [
+                                    {
+                                       "entity": "src.FLYWEIGHT.Approach1.VCard",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               },
                               "concreteFlyweights": {
-                                 "concreteFlyweight": {
-                                    "entity": "FLYWEIGHT.Approach1.FlyweightTest",
-                                    "_roleKind": "Class"
-                                 }
+                                 "concreteFlyweight": [
+                                    {
+                                       "entity": "FLYWEIGHT.Approach1.FlyweightTest",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "_number": "146"
@@ -9468,10 +9674,12 @@
                         {
                            "roles": {
                               "components": {
-                                 "component": {
-                                    "entity": "src.DECORATOR.LoggerFactory",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "component": [
+                                    {
+                                       "entity": "src.DECORATOR.LoggerFactory",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteComponents": {
                                  "concreteComponent": [
@@ -9482,10 +9690,12 @@
                                  ]
                               },
                               "decorators": {
-                                 "decorator": {
-                                    "entity": "src.DECORATOR.LoggerDecorator",
-                                    "_roleKind": "Class"
-                                 }
+                                 "decorator": [
+                                    {
+                                       "entity": "src.DECORATOR.LoggerDecorator",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               },
                               "concreteDecorators": {
                                  "concreteDecorator": [
@@ -9576,10 +9786,12 @@
                                  ]
                               },
                               "handler": {
-                                 "handler": {
-                                    "entity": "src.ChainOfResponsability.PRHandler",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "handler": [
+                                    {
+                                       "entity": "src.ChainOfResponsability.PRHandler",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concretehandler": [
                                  {
@@ -9616,10 +9828,12 @@
                         {
                            "roles": {
                               "facades": {
-                                 "facade": {
-                                    "entity": "src.FAÇADE.server.CustomerFacade",
-                                    "_roleKind": "Class"
-                                 }
+                                 "facade": [
+                                    {
+                                       "entity": "src.FAÇADE.server.CustomerFacade",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               },
                               "subsystemClasses": {
                                  "subsystemClass": [
@@ -9650,10 +9864,12 @@
                         {
                            "roles": {
                               "abstractions": {
-                                 "abstraction": {
-                                    "entity": "src.BRIDGE.FileLoger",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstraction": [
+                                    {
+                                       "entity": "src.BRIDGE.FileLoger",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "refinedAbstractions": {
                                  "refinedAbstraction": [
@@ -9668,10 +9884,12 @@
                                  ]
                               },
                               "implementors": {
-                                 "implementor": {
-                                    "entity": "src.BRIDGE.EncreyptedMessage",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "implementor": [
+                                    {
+                                       "entity": "src.BRIDGE.EncreyptedMessage",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteImplementors": {
                                  "concreteImplementor": [
@@ -9694,10 +9912,12 @@
                         {
                            "roles": {
                               "mediator": {
-                                 "mediator": {
-                                    "entity": "src.MEDIATOR.FTPGUI",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "mediator": [
+                                    {
+                                       "entity": "src.MEDIATOR.FTPGUI",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               }
                            },
                            "_number": "152"
@@ -9712,10 +9932,12 @@
                         {
                            "roles": {
                               "abstractClasses": {
-                                 "abstractClass": {
-                                    "entity": "src.TemplateMethod.CreditCard",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstractClass": [
+                                    {
+                                       "entity": "src.TemplateMethod.CreditCard",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteClasses": {
                                  "concreteClass": [
@@ -9806,10 +10028,12 @@
                                  ]
                               },
                               "states": {
-                                 "state": {
-                                    "entity": "src.STATE.State",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "state": [
+                                    {
+                                       "entity": "src.STATE.State",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteStates": {
                                  "concreteState": [
@@ -9856,22 +10080,28 @@
                                  ]
                               },
                               "abstractExpressions": {
-                                 "abstractExpression": {
-                                    "entity": "src.INTERPRETER.Expression",
-                                    "_roleKind": "abstractClass"
-                                 }
+                                 "abstractExpression": [
+                                    {
+                                       "entity": "src.INTERPRETER.Expression",
+                                       "_roleKind": "abstractClass"
+                                    }
+                                 ]
                               },
                               "terminalExpressions": {
-                                 "terminalExpression": {
-                                    "entity": "src.INTERPRETER.TerminalExpression",
-                                    "_roleKind": "class"
-                                 }
+                                 "terminalExpression": [
+                                    {
+                                       "entity": "src.INTERPRETER.TerminalExpression",
+                                       "_roleKind": "class"
+                                    }
+                                 ]
                               },
                               "nonTerminalExpressions": {
-                                 "nonTerminalExpression": {
-                                    "entity": "src.INTERPRETER.NonterminalExpression",
-                                    "_roleKind": "class"
-                                 }
+                                 "nonTerminalExpression": [
+                                    {
+                                       "entity": "src.INTERPRETER.NonterminalExpression",
+                                       "_roleKind": "class"
+                                    }
+                                 ]
                               }
                            },
                            "_number": "156"
@@ -9886,10 +10116,12 @@
                         {
                            "roles": {
                               "subjects": {
-                                 "subject": {
-                                    "entity": "src.OBSERVER.MonthlyReport",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "subject": [
+                                    {
+                                       "entity": "src.OBSERVER.MonthlyReport",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteSubjects": {
                                  "concreteSubject": [
@@ -9932,10 +10164,12 @@
                         {
                            "roles": {
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "src.SINGLETON.FileLogger",
-                                    "_roleKind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "src.SINGLETON.FileLogger",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "_number": "158"
@@ -9950,16 +10184,20 @@
                         {
                            "roles": {
                               "proxies": {
-                                 "proxy": {
-                                    "entity": "src.PROXY.server.CustomerFacade",
-                                    "_roleKind": "Class"
-                                 }
+                                 "proxy": [
+                                    {
+                                       "entity": "src.PROXY.server.CustomerFacade",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               },
                               "subjects": {
-                                 "subject": {
-                                    "entity": "src.PROXY.server.CustomerIntr",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "subject": [
+                                    {
+                                       "entity": "src.PROXY.server.CustomerIntr",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "realSubjects": {
                                  "realSubject": [
@@ -10026,10 +10264,12 @@
                                  ]
                               },
                               "caretakers": {
-                                 "caretaker": {
-                                    "entity": "java.io.Serializable",
-                                    "_roleKind": "Class"
-                                 }
+                                 "caretaker": [
+                                    {
+                                       "entity": "java.io.Serializable",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comment": "Java.io.Serializable is correct.",
@@ -10059,16 +10299,20 @@
                                  ]
                               },
                               "proxies": {
-                                 "proxy": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.CompilerProxy",
-                                    "_rolekind": "Class"
-                                 }
+                                 "proxy": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.CompilerProxy",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               },
                               "subjects": {
-                                 "subject": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.CompilerInterface",
-                                    "_rolekind": "AbstractClass"
-                                 }
+                                 "subject": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.CompilerInterface",
+                                       "_rolekind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "realSubjects": {
                                  "realSubject": [
@@ -10100,10 +10344,12 @@
                                  ]
                               },
                               "iterators": {
-                                 "iterator": {
-                                    "entity": "",
-                                    "_rolekind": "Class|AbstractClass"
-                                 }
+                                 "iterator": [
+                                    {
+                                       "entity": "",
+                                       "_rolekind": "Class|AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteIterators": {
                                  "concreteIterator": [
@@ -10114,10 +10360,12 @@
                                  ]
                               },
                               "aggregates": {
-                                 "aggregate": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.ModelList",
-                                    "_rolekind": "Class"
-                                 }
+                                 "aggregate": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.ModelList",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               },
                               "concreteAggregates": {
                                  "concreteAggregate": [
@@ -10149,10 +10397,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.model.definition.indent.Identer",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definition.indent.Identer",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "",
@@ -10176,10 +10426,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.javacFromClasspath",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.javacFromClasspath",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "",
@@ -10203,10 +10455,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.GJv6FromClasspath",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.GJv6FromClasspath",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton.",
@@ -10230,10 +10484,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.GJv6Compiler",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.GJv6Compiler",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton.",
@@ -10257,10 +10513,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.JSR14FromSetLocation",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.JSR14FromSetLocation",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton.",
@@ -10284,10 +10542,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.JavacFromSetLocation",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.JavacFromSetLocation",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton.",
@@ -10311,10 +10571,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.CompilerRegistry",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.CompilerRegistry",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton.",
@@ -10338,10 +10600,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.JavacFromToolsJar",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.JavacFromToolsJar",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton.",
@@ -10365,10 +10629,12 @@
                                  ]
                               },
                               "visitors": {
-                                 "visitor": {
-                                    "entity": "koala.dynamicjava.tree.visitor.Visitor",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "visitor": [
+                                    {
+                                       "entity": "koala.dynamicjava.tree.visitor.Visitor",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteVisitors": {
                                  "concreteVisitor": [
@@ -10383,10 +10649,12 @@
                                  ]
                               },
                               "elements": {
-                                 "element": {
-                                    "entity": "koala.dynamicjava.tree.Node",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "element": [
+                                    {
+                                       "entity": "koala.dynamicjava.tree.Node",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteElements": {
                                  "concreteElement": [
@@ -10413,10 +10681,12 @@
                                  ]
                               },
                               "objectStructures": {
-                                 "objectStructure": {
-                                    "entity": "koala.dynamicjava.parser.wrapper.SourceCodeParser",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "objectStructure": [
+                                    {
+                                       "entity": "koala.dynamicjava.parser.wrapper.SourceCodeParser",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "Ce patron de conception est interessant car il utilise des classes qui se trouvent dans d'autres packages qui n'ont pas ete cree par l'equipes de \n\t\t\t\t\t\t\t\t\tDrJava. A travers la classe DynamicJavaAdapter des liens entre des classes qui n'ont rien en commun est possible notament celles de DrJava avec Koala.\n\t\t\t\t\t\t\t\t\tIl y a beaucoup plus de concreteElements environ une vingtaine.",
@@ -10568,10 +10838,12 @@
                                  ]
                               },
                               "caretakers": {
-                                 "caretaker": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.DefinitionsDocument",
-                                    "_roleKind": "Class"
-                                 }
+                                 "caretaker": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.DefinitionsDocument",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "DefinitionsDocument joue le role de caretaker et de originator. En effet c'est un blob qui regroupe beaucoup de classes et de methodes.\n\t\t\t\t\t\t\t\tClient non precise.",
@@ -10785,10 +11057,12 @@
                                  ]
                               },
                               "creators": {
-                                 "creator": {
-                                    "entity": "javax.swing.text.DefaultEditorKit",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "creator": [
+                                    {
+                                       "entity": "javax.swing.text.DefaultEditorKit",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteCreators": {
                                  "concreteCreator": [
@@ -10864,10 +11138,12 @@
                                  }
                               },
                               "RefinedAbstractions": {
-                                 "RefinedAbstraction": {
-                                    "entity": "edu.rice.cs.util.newjvm.MasterRemote",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "RefinedAbstraction": [
+                                    {
+                                       "entity": "edu.rice.cs.util.newjvm.MasterRemote",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "Implementors": {
                                  "Implementor": [
@@ -10882,10 +11158,12 @@
                                  ]
                               },
                               "ConcreteImplementors": {
-                                 "ConcreteImplementor": {
-                                    "entity": "edu.rice.cs.util.newjvm.IntegratedMasterSlaveTest.$CounterSlave",
-                                    "_roleKind": "Class"
-                                 }
+                                 "ConcreteImplementor": [
+                                    {
+                                       "entity": "edu.rice.cs.util.newjvm.IntegratedMasterSlaveTest.$CounterSlave",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "Le Bridge ici, est formé de 2 Templates: \n\t                1e template microarchitecture #2080 est pour l'abstration et le refinedabstration. \n\t                2e template microarchitecture #2090 est l'implementor \n\t                et le ConcreteImplementor qui est une class inner ce raccorde au 2e template. \n\t                \n\t                Comme on peut voir , il y a seulement un ConcreteImplementor il serait bon de voir avec les autres versions de DrJava s'il n'y aurait pas eu evolution.",
@@ -10901,16 +11179,20 @@
                         {
                            "actors": {
                               "proxies": {
-                                 "proxy": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.CompilerProxy",
-                                    "_roleKind": "Class"
-                                 }
+                                 "proxy": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.CompilerProxy",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               },
                               "subjects": {
-                                 "subject": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.CompilerInterface",
-                                    "_roleKind": "Class"
-                                 }
+                                 "subject": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.CompilerInterface",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               },
                               "realSubjects": {
                                  "realSubject": [
@@ -10942,10 +11224,12 @@
                                  ]
                               },
                               "states": {
-                                 "state": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.ReducedModelState",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "state": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.ReducedModelState",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteStates": {
                                  "concreteState": [
@@ -10990,10 +11274,12 @@
                                  ]
                               },
                               "states": {
-                                 "state": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.indent.IndentRule",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "state": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.indent.IndentRule",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteStates": {
                                  "concreteState": [
@@ -11038,10 +11324,12 @@
                                  ]
                               },
                               "states": {
-                                 "state": {
-                                    "entity": "edu.rice.cs.drjava.ui.config.OptionComponent",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "state": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.ui.config.OptionComponent",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteStates": {
                                  "concreteState": [
@@ -11191,10 +11479,12 @@
                         {
                            "actors": {
                               "abstractClass": {
-                                 "abstractClass": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.ReducedToken",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.ReducedToken",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteClass": [
                                  {
@@ -11217,10 +11507,12 @@
                         {
                            "actors": {
                               "abstractClass": {
-                                 "abstractClass": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.indent.IndentRuleQuestion",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.indent.IndentRuleQuestion",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteClass": [
                                  {
@@ -11291,10 +11583,12 @@
                         {
                            "actors": {
                               "abstractClass": {
-                                 "abstractClass": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.indent.IndentRuleAction",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.indent.IndentRuleAction",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteClass": [
                                  {
@@ -11333,10 +11627,12 @@
                         {
                            "actors": {
                               "abstractClass": {
-                                 "abstractClass": {
-                                    "entity": "edu.rice.cs.drjava.ui.config.OptionComponent",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.ui.config.OptionComponent",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteClass": [
                                  {
@@ -11391,10 +11687,12 @@
                         {
                            "actors": {
                               "AbstractClassS": {
-                                 "AbstractClass": {
-                                    "entity": "edu.rice.cs.util.newjvm.AbstractSlaveJVM",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "AbstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.util.newjvm.AbstractSlaveJVM",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "ConcreteClassS": {
                                  "ConcreteClass": [
@@ -11411,10 +11709,12 @@
                         {
                            "actors": {
                               "AbstractClassS": {
-                                 "AbstractClass": {
-                                    "entity": "edu.rice.cs.util.newjvm.AbstractMasterJVM",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "AbstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.util.newjvm.AbstractMasterJVM",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "ConcreteClassS": {
                                  "ConcreteClass": [
@@ -11431,10 +11731,12 @@
                         {
                            "actors": {
                               "AbstractClassS": {
-                                 "AbstractClass": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.AbstractReducedModel",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "AbstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.AbstractReducedModel",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "ConcreteClassS": {
                                  "ConcreteClass": [
@@ -11455,10 +11757,12 @@
                         {
                            "actors": {
                               "AbstractClassS": {
-                                 "AbstractClass": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.ReducedToken",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "AbstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.ReducedToken",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "ConcreteClassS": {
                                  "ConcreteClass": [
@@ -11507,10 +11811,12 @@
                                  ]
                               },
                               "creators": {
-                                 "creator": {
-                                    "entity": "javax.swing.text.DefaultEditorKit",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "creator": [
+                                    {
+                                       "entity": "javax.swing.text.DefaultEditorKit",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteCreators": {
                                  "concreteCreator": [
@@ -11542,10 +11848,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.model.definition.indent.Identer",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definition.indent.Identer",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "",
@@ -11562,10 +11870,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.javacFromClasspath",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.javacFromClasspath",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "",
@@ -11582,10 +11892,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.GJv6FromClasspath",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.GJv6FromClasspath",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton.",
@@ -11602,10 +11914,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.GJv6Compiler",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.GJv6Compiler",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton.",
@@ -11622,10 +11936,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.JSR14FromSetLocation",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.JSR14FromSetLocation",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton.",
@@ -11642,10 +11958,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.JavacFromSetLocation",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.JavacFromSetLocation",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton.",
@@ -11662,10 +11980,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.CompilerRegistry",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.CompilerRegistry",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton.",
@@ -11682,10 +12002,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.JavacFromToolsJar",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.JavacFromToolsJar",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton.",
@@ -11805,10 +12127,12 @@
                                  }
                               },
                               "RefinedAbstractions": {
-                                 "RefinedAbstraction": {
-                                    "entity": "edu.rice.cs.util.newjvm.MasterRemote",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "RefinedAbstraction": [
+                                    {
+                                       "entity": "edu.rice.cs.util.newjvm.MasterRemote",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "Implementors": {
                                  "Implementor": [
@@ -11823,10 +12147,12 @@
                                  ]
                               },
                               "ConcreteImplementors": {
-                                 "ConcreteImplementor": {
-                                    "entity": "edu.rice.cs.util.newjvm.IntegratedMasterSlaveTest.$CounterSlave",
-                                    "_roleKind": "Class"
-                                 }
+                                 "ConcreteImplementor": [
+                                    {
+                                       "entity": "edu.rice.cs.util.newjvm.IntegratedMasterSlaveTest.$CounterSlave",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "Le Bridge ici, est formé de 2 Templates: \n\t                1e template microarchitecture #2080 est pour l'abstration et le refinedabstration. \n\t                2e template microarchitecture #2090 est l'implementor \n\t                et le ConcreteImplementor qui est une class inner ce raccorde au 2e template. \n\t                \n\t                Comme on peut voir , il y a seulement un ConcreteImplementor il serait bon de voir avec les autres versions de DrJava s'il n'y aurait pas eu2 evolution.",
@@ -11842,16 +12168,20 @@
                         {
                            "actors": {
                               "proxies": {
-                                 "proxy": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.CompilerProxy",
-                                    "_roleKind": "Class"
-                                 }
+                                 "proxy": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.CompilerProxy",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               },
                               "subjects": {
-                                 "subject": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.CompilerInterface",
-                                    "_roleKind": "Class"
-                                 }
+                                 "subject": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.CompilerInterface",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               },
                               "realSubjects": {
                                  "realSubject": [
@@ -12002,10 +12332,12 @@
                                  ]
                               },
                               "iterators": {
-                                 "iterator": {
-                                    "entity": "",
-                                    "_rolekind": "Class|AbstractClass"
-                                 }
+                                 "iterator": [
+                                    {
+                                       "entity": "",
+                                       "_rolekind": "Class|AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteIterators": {
                                  "concreteIterator": [
@@ -12016,10 +12348,12 @@
                                  ]
                               },
                               "aggregates": {
-                                 "aggregate": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.ModelList",
-                                    "_rolekind": "Class"
-                                 }
+                                 "aggregate": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.ModelList",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               },
                               "concreteAggregates": {
                                  "concreteAggregate": [
@@ -12043,22 +12377,28 @@
                         {
                            "actors": {
                               "mediators": {
-                                 "mediator": {
-                                    "entity": "edu.rice.cs.drjava.model.debug.DebugManager",
-                                    "_roleKind": "Class"
-                                 }
+                                 "mediator": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.debug.DebugManager",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               },
                               "concreteMediators": {
-                                 "concreteMediator": {
-                                    "entity": "edu.rice.cs.drjava.model.debug.DebugManager",
-                                    "_roleKind": "Class"
-                                 }
+                                 "concreteMediator": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.debug.DebugManager",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               },
                               "colleagues": {
-                                 "colleague": {
-                                    "entity": "com.sun.jdi.request.EventRequest",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "colleague": [
+                                    {
+                                       "entity": "com.sun.jdi.request.EventRequest",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreateColleagues": {
                                  "concreateColleague": [
@@ -12110,10 +12450,12 @@
                                  ]
                               },
                               "caretakers": {
-                                 "caretaker": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.DefinitionsDocument",
-                                    "_roleKind": "Class"
-                                 }
+                                 "caretaker": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.DefinitionsDocument",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "DefinitionsDocument joue le role de caretaker et de originator. En effet c'est un blob qui regroupe beaucoup de classes et de methodes.\n\t\t\t\t\t\t\t\tClient non precise.",
@@ -12137,10 +12479,12 @@
                                  ]
                               },
                               "states": {
-                                 "state": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.ReducedModelState",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "state": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.ReducedModelState",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteStates": {
                                  "concreteState": [
@@ -12185,10 +12529,12 @@
                                  ]
                               },
                               "states": {
-                                 "state": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.indent.IndentRule",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "state": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.indent.IndentRule",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteStates": {
                                  "concreteState": [
@@ -12233,10 +12579,12 @@
                                  ]
                               },
                               "states": {
-                                 "state": {
-                                    "entity": "edu.rice.cs.drjava.ui.config.OptionComponent",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "state": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.ui.config.OptionComponent",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteStates": {
                                  "concreteState": [
@@ -12510,10 +12858,12 @@
                         {
                            "actors": {
                               "abstractClass": {
-                                 "abstractClass": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.ReducedToken",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.ReducedToken",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteClass": [
                                  {
@@ -12536,10 +12886,12 @@
                         {
                            "actors": {
                               "abstractClass": {
-                                 "abstractClass": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.indent.IndentRuleQuestion",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.indent.IndentRuleQuestion",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteClass": [
                                  {
@@ -12610,10 +12962,12 @@
                         {
                            "actors": {
                               "abstractClass": {
-                                 "abstractClass": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.indent.IndentRuleAction",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.indent.IndentRuleAction",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteClass": [
                                  {
@@ -12652,10 +13006,12 @@
                         {
                            "actors": {
                               "abstractClass": {
-                                 "abstractClass": {
-                                    "entity": "edu.rice.cs.drjava.model.debug.DocumentDebugAction",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.debug.DocumentDebugAction",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteClass": [
                                  {
@@ -12674,10 +13030,12 @@
                         {
                            "actors": {
                               "abstractClass": {
-                                 "abstractClass": {
-                                    "entity": "edu.rice.cs.drjava.ui.config.OptionComponent",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.ui.config.OptionComponent",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteClass": [
                                  {
@@ -12732,10 +13090,12 @@
                         {
                            "actors": {
                               "AbstractClassS": {
-                                 "AbstractClass": {
-                                    "entity": "edu.rice.cs.util.newjvm.AbstractSlaveJVM",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "AbstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.util.newjvm.AbstractSlaveJVM",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "ConcreteClassS": {
                                  "ConcreteClass": [
@@ -12752,10 +13112,12 @@
                         {
                            "actors": {
                               "AbstractClassS": {
-                                 "AbstractClass": {
-                                    "entity": "edu.rice.cs.util.newjvm.AbstractMasterJVM",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "AbstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.util.newjvm.AbstractMasterJVM",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "ConcreteClassS": {
                                  "ConcreteClass": [
@@ -12772,10 +13134,12 @@
                         {
                            "actors": {
                               "AbstractClassS": {
-                                 "AbstractClass": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.AbstractReducedModel",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "AbstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.AbstractReducedModel",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "ConcreteClassS": {
                                  "ConcreteClass": [
@@ -12796,10 +13160,12 @@
                         {
                            "actors": {
                               "AbstractClassS": {
-                                 "AbstractClass": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.ReducedToken",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "AbstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.ReducedToken",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "ConcreteClassS": {
                                  "ConcreteClass": [
@@ -12835,10 +13201,12 @@
                                  ]
                               },
                               "visitors": {
-                                 "visitor": {
-                                    "entity": "koala.dynamicjava.tree.visitor.Visitor",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "visitor": [
+                                    {
+                                       "entity": "koala.dynamicjava.tree.visitor.Visitor",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteVisitors": {
                                  "concreteVisitor": [
@@ -12853,10 +13221,12 @@
                                  ]
                               },
                               "elements": {
-                                 "element": {
-                                    "entity": "koala.dynamicjava.tree.Node",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "element": [
+                                    {
+                                       "entity": "koala.dynamicjava.tree.Node",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteElements": {
                                  "concreteElement": [
@@ -12883,10 +13253,12 @@
                                  ]
                               },
                               "objectStructures": {
-                                 "objectStructure": {
-                                    "entity": "koala.dynamicjava.parser.wrapper.SourceCodeParser",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "objectStructure": [
+                                    {
+                                       "entity": "koala.dynamicjava.parser.wrapper.SourceCodeParser",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "Ce patron de conception est interessant car il utilise des classes qui se trouvent dans d'autres packages qui n'ont pas ete cree par l'equipes de \n\t\t\t\t\t\t\t\t\tDrJava. A travers la classe DynamicJavaAdapter des liens entre des classes qui n'ont rien en commun est possible notament celles de DrJava avec Koala.\n\t\t\t\t\t\t\t\t\tIl y a beaucoup plus de concreteElements environ une vingtaine.",
@@ -12996,10 +13368,12 @@
                                  ]
                               },
                               "creators": {
-                                 "creator": {
-                                    "entity": "",
-                                    "_roleKind": "Class|AbstractClass"
-                                 }
+                                 "creator": [
+                                    {
+                                       "entity": "",
+                                       "_roleKind": "Class|AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteCreators": {
                                  "concreteCreator": [
@@ -13031,10 +13405,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.platform.DefaultPlatform",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.platform.DefaultPlatform",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "",
@@ -13058,10 +13434,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.platform.MacPlatform",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.platform.MacPlatform",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "",
@@ -13085,10 +13463,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.platform.Mac14Platform",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.platform.Mac14Platform",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "",
@@ -13112,10 +13492,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.platform.WindowsPlatform",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.platform.WindowsPlatform",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "",
@@ -13139,10 +13521,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.platform.PlatformFactory",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.platform.PlatformFactory",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "",
@@ -13165,14 +13549,18 @@
                                     }
                                  ]
                               },
-                              "proxy": {
-                                 "entity": "edu.rice.cs.drjava.model.compiler.CompilerProxy",
-                                 "_rolekind": "Class"
-                              },
-                              "subject": {
-                                 "entity": "edu.rice.cs.drjava.model.compiler.CompilerInterface",
-                                 "_rolekind": "AbstractClass"
-                              },
+                              "proxy": [
+                                 {
+                                    "entity": "edu.rice.cs.drjava.model.compiler.CompilerProxy",
+                                    "_rolekind": "Class"
+                                 }
+                              ],
+                              "subject": [
+                                 {
+                                    "entity": "edu.rice.cs.drjava.model.compiler.CompilerInterface",
+                                    "_rolekind": "AbstractClass"
+                                 }
+                              ],
                               "realSubject": [
                                  {
                                     "entity": "edu.rice.cs.drjava.model.compiler.CompilerInterface",
@@ -13303,10 +13691,12 @@
                                  ]
                               },
                               "caretakers": {
-                                 "caretaker": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.DefinitionsDocument",
-                                    "_roleKind": "Class"
-                                 }
+                                 "caretaker": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.DefinitionsDocument",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "DefinitionsDocument joue le role de caretaker et de originator. En effet c'est un blob qui regroupe beaucoup de classes et de methodes.\n\t\t\t\t\t\t\t\tClient non precise.",
@@ -13415,10 +13805,12 @@
                                  ]
                               },
                               "visitors": {
-                                 "visitor": {
-                                    "entity": "koala.dynamicjava.tree.visitor.Visitor",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "visitor": [
+                                    {
+                                       "entity": "koala.dynamicjava.tree.visitor.Visitor",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteVisitors": {
                                  "concreteVisitor": [
@@ -13433,10 +13825,12 @@
                                  ]
                               },
                               "elements": {
-                                 "element": {
-                                    "entity": "koala.dynamicjava.tree.Node",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "element": [
+                                    {
+                                       "entity": "koala.dynamicjava.tree.Node",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteElements": {
                                  "concreteElement": [
@@ -13463,10 +13857,12 @@
                                  ]
                               },
                               "objectStructures": {
-                                 "objectStructure": {
-                                    "entity": "koala.dynamicjava.parser.wrapper.SourceCodeParser",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "objectStructure": [
+                                    {
+                                       "entity": "koala.dynamicjava.parser.wrapper.SourceCodeParser",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "Ce patron de conception est interessant car il utilise des classes qui se trouvent dans d'autres packages qui n'ont pas ete cree par l'equipes de \n\t\t\t\t\t\t\t\t\tDrJava. A travers la classe DynamicJavaAdapter des liens entre des classes qui n'ont rien en commun est possible notament celles de DrJava avec Koala.\n\t\t\t\t\t\t\t\t\tIl y a beaucoup plus de concreteElements environ une vingtaine.",
@@ -13490,10 +13886,12 @@
                                  ]
                               },
                               "iterators": {
-                                 "iterator": {
-                                    "entity": "",
-                                    "_rolekind": "Class|AbstractClass"
-                                 }
+                                 "iterator": [
+                                    {
+                                       "entity": "",
+                                       "_rolekind": "Class|AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteIterators": {
                                  "concreteIterator": [
@@ -13504,10 +13902,12 @@
                                  ]
                               },
                               "aggregates": {
-                                 "aggregate": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.ModelList",
-                                    "_rolekind": "Class"
-                                 }
+                                 "aggregate": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.ModelList",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               },
                               "concreteAggregates": {
                                  "concreteAggregate": [
@@ -13578,10 +13978,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.model.definition.indent.Identer",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definition.indent.Identer",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "",
@@ -13605,10 +14007,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.javacFromClasspath",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.javacFromClasspath",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "",
@@ -13632,10 +14036,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.GJv6FromClasspath",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.GJv6FromClasspath",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton.",
@@ -13659,10 +14065,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.GJv6Compiler",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.GJv6Compiler",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton.",
@@ -13686,10 +14094,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.JSR14FromSetLocation",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.JSR14FromSetLocation",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton.",
@@ -13713,10 +14123,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.JavacFromSetLocation",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.JavacFromSetLocation",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton.",
@@ -13740,10 +14152,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.CompilerRegistry",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.CompilerRegistry",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton.",
@@ -13767,10 +14181,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.JavacFromToolsJar",
-                                    "_rolekind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.JavacFromToolsJar",
+                                       "_rolekind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "Nous pensons que nous avons un singleton par la presence de la classe static et des commentaires laisser par les programmeurs disant que c'est un singleton.",
@@ -13807,10 +14223,12 @@
                                  ]
                               },
                               "creators": {
-                                 "creator": {
-                                    "entity": "javax.swing.text.DefaultEditorKit",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "creator": [
+                                    {
+                                       "entity": "javax.swing.text.DefaultEditorKit",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteCreators": {
                                  "concreteCreator": [
@@ -13842,10 +14260,12 @@
                                  ]
                               },
                               "singletons": {
-                                 "singleton": {
-                                    "entity": "",
-                                    "_roleKind": "Class"
-                                 }
+                                 "singleton": [
+                                    {
+                                       "entity": "",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "",
@@ -13913,10 +14333,12 @@
                                  }
                               },
                               "RefinedAbstractions": {
-                                 "RefinedAbstraction": {
-                                    "entity": "edu.rice.cs.util.newjvm.MasterRemote",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "RefinedAbstraction": [
+                                    {
+                                       "entity": "edu.rice.cs.util.newjvm.MasterRemote",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "Implementors": {
                                  "Implementor": [
@@ -13931,10 +14353,12 @@
                                  ]
                               },
                               "ConcreteImplementors": {
-                                 "ConcreteImplementor": {
-                                    "entity": "edu.rice.cs.util.newjvm.IntegratedMasterSlaveTest.$CounterSlave",
-                                    "_roleKind": "Class"
-                                 }
+                                 "ConcreteImplementor": [
+                                    {
+                                       "entity": "edu.rice.cs.util.newjvm.IntegratedMasterSlaveTest.$CounterSlave",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               }
                            },
                            "comments": "Le Bridge ici, est formé de 2 Templates: \n\t                1e template microarchitecture #2080 est pour l'abstration et le refinedabstration. \n\t                2e template microarchitecture #2090 est l'implementor \n\t                et le ConcreteImplementor qui est une class inner ce raccorde au 2e template. \n\t                \n\t                Comme on peut voir , il y a seulement un ConcreteImplementor il serait bon de voir avec les autres versions de DrJava s'il n'y aurait pas eu evolution.",
@@ -13950,16 +14374,20 @@
                         {
                            "actors": {
                               "proxies": {
-                                 "proxy": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.CompilerProxy",
-                                    "_roleKind": "Class"
-                                 }
+                                 "proxy": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.CompilerProxy",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               },
                               "subjects": {
-                                 "subject": {
-                                    "entity": "edu.rice.cs.drjava.model.compiler.CompilerInterface",
-                                    "_roleKind": "Class"
-                                 }
+                                 "subject": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.compiler.CompilerInterface",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               },
                               "realSubjects": {
                                  "realSubject": [
@@ -13983,22 +14411,28 @@
                         {
                            "actors": {
                               "mediators": {
-                                 "mediator": {
-                                    "entity": "edu.rice.cs.drjava.model.debug.Debugger",
-                                    "_roleKind": "Class"
-                                 }
+                                 "mediator": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.debug.Debugger",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               },
                               "concreteMediators": {
-                                 "concreteMediator": {
-                                    "entity": "edu.rice.cs.drjava.model.debug.JPDADebugger",
-                                    "_roleKind": "Class"
-                                 }
+                                 "concreteMediator": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.debug.JPDADebugger",
+                                       "_roleKind": "Class"
+                                    }
+                                 ]
                               },
                               "colleagues": {
-                                 "colleague": {
-                                    "entity": "com.sun.jdi.request.EventRequest",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "colleague": [
+                                    {
+                                       "entity": "com.sun.jdi.request.EventRequest",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreateColleagues": {
                                  "concreateColleague": [
@@ -14034,10 +14468,12 @@
                                  ]
                               },
                               "states": {
-                                 "state": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.ReducedModelState",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "state": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.ReducedModelState",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteStates": {
                                  "concreteState": [
@@ -14082,10 +14518,12 @@
                                  ]
                               },
                               "states": {
-                                 "state": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.indent.IndentRule",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "state": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.indent.IndentRule",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteStates": {
                                  "concreteState": [
@@ -14142,10 +14580,12 @@
                                  ]
                               },
                               "states": {
-                                 "state": {
-                                    "entity": "edu.rice.cs.drjava.ui.config.OptionComponent",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "state": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.ui.config.OptionComponent",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteStates": {
                                  "concreteState": [
@@ -14373,10 +14813,12 @@
                         {
                            "actors": {
                               "abstractClass": {
-                                 "abstractClass": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.ReducedToken",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.ReducedToken",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteClass": [
                                  {
@@ -14399,10 +14841,12 @@
                         {
                            "actors": {
                               "abstractClass": {
-                                 "abstractClass": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.indent.IndentRuleQuestion",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.indent.IndentRuleQuestion",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteClass": [
                                  {
@@ -14473,10 +14917,12 @@
                         {
                            "actors": {
                               "abstractClass": {
-                                 "abstractClass": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.indent.IndentRuleAction",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.indent.IndentRuleAction",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteClass": [
                                  {
@@ -14515,10 +14961,12 @@
                         {
                            "actors": {
                               "abstractClass": {
-                                 "abstractClass": {
-                                    "entity": "edu.rice.cs.drjava.model.debug.DocumentDebugAction",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.debug.DocumentDebugAction",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteClass": [
                                  {
@@ -14537,10 +14985,12 @@
                         {
                            "actors": {
                               "abstractClass": {
-                                 "abstractClass": {
-                                    "entity": "edu.rice.cs.drjava.ui.config.OptionComponent",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "abstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.ui.config.OptionComponent",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "concreteClass": [
                                  {
@@ -14595,10 +15045,12 @@
                         {
                            "actors": {
                               "AbstractClassS": {
-                                 "AbstractClass": {
-                                    "entity": "edu.rice.cs.util.newjvm.AbstractSlaveJVM",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "AbstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.util.newjvm.AbstractSlaveJVM",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "ConcreteClassS": {
                                  "ConcreteClass": [
@@ -14615,10 +15067,12 @@
                         {
                            "actors": {
                               "AbstractClassS": {
-                                 "AbstractClass": {
-                                    "entity": "edu.rice.cs.util.newjvm.AbstractMasterJVM",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "AbstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.util.newjvm.AbstractMasterJVM",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "ConcreteClassS": {
                                  "ConcreteClass": [
@@ -14635,10 +15089,12 @@
                         {
                            "actors": {
                               "AbstractClassS": {
-                                 "AbstractClass": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.AbstractReducedModel",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "AbstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.AbstractReducedModel",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "ConcreteClassS": {
                                  "ConcreteClass": [
@@ -14659,10 +15115,12 @@
                         {
                            "actors": {
                               "AbstractClassS": {
-                                 "AbstractClass": {
-                                    "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.ReducedToken",
-                                    "_roleKind": "AbstractClass"
-                                 }
+                                 "AbstractClass": [
+                                    {
+                                       "entity": "edu.rice.cs.drjava.model.definitions.reducedmodel.ReducedToken",
+                                       "_roleKind": "AbstractClass"
+                                    }
+                                 ]
                               },
                               "ConcreteClassS": {
                                  "ConcreteClass": [
