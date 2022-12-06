@@ -1,0 +1,44 @@
+id,name,type
+n0,Maintainability,QualityAttribute
+n1,Coupling,Measure
+n10,Use an intermediary,Tactic
+n11,Manage Dependencies,TacticGroup
+n12,Layers,Pattern
+n13,Restrict dependencies,Tactic
+n14,Manage System State,TacticGroup
+n15,Manage Deployments,TacticGroup
+n16,Abstract common services,Tactic
+n17,Split module,Tactic
+n18,Refactor,Tactic
+n19,Increase semantic coherence,Tactic
+n2,Cohesion,Measure
+n20,Defer binding,Tactic
+n21,Pipes and Filters,Pattern
+n22,Specialized interfaces,Tactic
+n23,Record playback,Tactic
+n24,Localize state storage,Tactic
+n25,Abstract data sources,Tactic
+n26,Sandbox,Tactic
+n27,Executable assertions,Tactic
+n28,Segment deployments,Tactic
+n29,Rollback,Tactic
+n3,Controllability,Measure
+n30,Feature toggle,Tactic
+n31,Command dispatcher,Tactic
+n32,Publish/Subscribe,Pattern
+n33,Adapter,Pattern
+n34,MVC,Pattern
+n35,Memento,Pattern
+n36,Façade,Pattern
+n37,Strategy,Pattern
+n38,Intercepting Filter,Pattern
+n39,Blue-Green Deployment,Pattern
+n4,Observ. of State,Measure
+n40,Canary Deployment,Pattern
+n41,Rolling Deployment,Pattern
+n42,Circuit Breaker,Pattern
+n5,Control of State,Measure
+n6,Test Efficiency,Measure
+n7,Granularity,Measure
+n8,Efficiency,Measure
+n9,Encapsulate,Tactic

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph role="type" edgeids="false" edgemode="directed" id="pattern-def">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n0">
+            <attr name="layout">
+                <string>145 259 59 24</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>283 493 35 24</string>
+            </attr>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>571 578 122 48</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>315 84 58 24</string>
+            </attr>
+        </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>789 168 124 24</string>
+            </attr>
+        </node>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>type:Pattern</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n3">
+            <attr name="label">
+                <string>sub:</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n1">
+            <attr name="label">
+                <string>involves</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>type:Role</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>interacts</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 343 469 413 379 342 469 11</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n3">
+            <attr name="label">
+                <string>sub:</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>type:Structure</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>string:fullname</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n1">
+            <attr name="label">
+                <string>acts-as</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n3">
+            <attr name="label">
+                <string>sub:</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>type:Named</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n4">
+            <attr name="label">
+                <string>type:PatternInstance</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n0">
+            <attr name="label">
+                <string>instance-of</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n2">
+            <attr name="label">
+                <string>involves</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

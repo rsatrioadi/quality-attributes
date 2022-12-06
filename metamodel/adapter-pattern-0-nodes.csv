@@ -1,0 +1,6 @@
+id,name,type
+n0,Client,Role
+n1,Adapter,Pattern
+n2,Target,Role
+n3,Adapter,Role
+n4,Adaptee,Role

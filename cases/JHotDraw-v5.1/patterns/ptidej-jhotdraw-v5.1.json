@@ -1,0 +1,2033 @@
+{
+  "name": "6 - JHotDraw v5.1",
+  "designPattern": [
+    {
+      "microArchitectures": {
+        "microArchitecture": [
+          {
+            "roles": {
+              "clients": {
+                "client": [
+                  {
+                    "entity": "CH.ifa.draw.standard.StandardDrawingView",
+                    "_roleKind": "AbstractClass"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.HandleTracker",
+                    "_roleKind": "AbstractClass"
+                  }
+                ]
+              },
+              "targets": {
+                "target": [
+                  {
+                    "entity": "CH.ifa.draw.framework.Handle",
+                    "_roleKind": "AbstractClass"
+                  }
+                ]
+              },
+              "adapters": {
+                "adapter": [
+                  {
+                    "entity": "CH.ifa.draw.standard.ChangeConnectionEndHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.ChangeConnectionStartHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ElbowHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.LocatorHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.ConnectionHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.EastHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.FontSizeHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.NorthEastHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.NorthHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.NorthWestHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.NullHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.GroupHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.PolyLineHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.SouthEastHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.SouthHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.SouthWestHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.WestHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.PolygonHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.PolygonScaleHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.RadiusHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.TriangleRotationHandle",
+                    "_roleKind": "Class"
+                  }
+                ]
+              },
+              "adaptees": {
+                "adaptee": [
+                  {
+                    "entity": "CH.ifa.draw.framework.Figure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.framework.ConnectionFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.LineConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.framework.Locator",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.TextFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.PolyLineFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.PolygonFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.RoundRectangleFigure",
+                    "_roleKind": "Class"
+                  }
+                ]
+              }
+            },
+            "_number": 73
+          }
+        ]
+      },
+      "_name": "Adapter"
+    },
+    {
+      "microArchitectures": {
+        "microArchitecture": [
+          {
+            "roles": {
+              "clients": {
+                "client": [
+                  {
+                    "entity": "CH.ifa.draw.application.DrawApplication",
+                    "_roleKind": "AbstractClass"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.applet.DrawApplet",
+                    "_roleKind": "AbstractClass"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.StandardDrawingView",
+                    "_roleKind": "AbstractClass"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.JavaDrawApp",
+                    "_roleKind": "AbstractClass"
+                  }
+                ]
+              },
+              "invokers": {
+                "invoker": [
+                  {
+                    "entity": "CH.ifa.draw.standard.StandardDrawingView",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.util.CommandButton",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.util.CommandChoice",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.util.CommandMenu",
+                    "_roleKind": "Class"
+                  }
+                ]
+              },
+              "commands": {
+                "command": [
+                  {
+                    "entity": "CH.ifa.draw.util.Command",
+                    "_roleKind": "AbstractClass"
+                  }
+                ]
+              },
+              "concreteCommands": {
+                "concreteCommand": [
+                  {
+                    "entity": "CH.ifa.draw.standard.AlignCommand",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.BringToFrontCommand",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.ChangeAttributeCommand",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.CopyCommand",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.CutCommand",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.DeleteCommand",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.DuplicateCommand",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.PasteCommand",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.GroupCommand",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.InsertImageCommand",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.SendToBackCommand",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.ToggleGridCommand",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.UngroupCommand",
+                    "_roleKind": "Class"
+                  }
+                ]
+              },
+              "receivers": {
+                "receiver": [
+                  {
+                    "entity": "CH.ifa.draw.framework.Figure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.framework.FigureSelection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.framework.Drawing",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.framework.DrawingView",
+                    "_roleKind": "Class"
+                  }
+                ]
+              }
+            },
+            "_number": 74
+          }
+        ]
+      },
+      "_name": "Command"
+    },
+    {
+      "microArchitectures": {
+        "microArchitecture": [
+          {
+            "roles": {
+              "clients": {
+                "client": [
+                  {
+                    "entity": "CH.ifa.draw.figures.GroupCommand",
+                    "_roleKind": "AbstractClass"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertDependency",
+                    "_roleKind": "AbstractClass"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertFigureCreationTool",
+                    "_roleKind": "AbstractClass"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.applet.DrawApplet",
+                    "_roleKind": "AbstractClass"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.application.DrawApplication",
+                    "_roleKind": "AbstractClass"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.JavaDrawViewer",
+                    "_roleKind": "AbstractClass"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.JavaDrawApp",
+                    "_roleKind": "AbstractClass"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.JavaDrawApplet",
+                    "_roleKind": "AbstractClass"
+                  }
+                ]
+              },
+              "components": {
+                "component": [
+                  {
+                    "entity": "CH.ifa.draw.framework.Figure",
+                    "_roleKind": "AbstractClass"
+                  }
+                ]
+              },
+              "composites": {
+                "composite": [
+                  {
+                    "entity": "CH.ifa.draw.standard.CompositeFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.GroupFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.StandardDrawing",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.BouncingDrawing",
+                    "_roleKind": "Class"
+                  }
+                ]
+              },
+              "leaves": {
+                "leaf": [
+                  {
+                    "entity": "CH.ifa.draw.figures.EllipseFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ImageFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.PolygonFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.RectangleFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.DiamondFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.TriangleFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.RoundRectangleFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.TextFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.net.NodeFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.NumberTextFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.GroupFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.StandardDrawing",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.BouncingDrawing",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.AnimationDecorator",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.BorderDecorator",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.PolyLineFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.LineConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ElbowConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertDependency",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.LineFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.LineConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ElbowConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertDependency",
+                    "_roleKind": "Class"
+                  }
+                ]
+              }
+            },
+            "_number": 75
+          }
+        ]
+      },
+      "_name": "Composite"
+    },
+    {
+      "microArchitectures": {
+        "microArchitecture": [
+          {
+            "roles": {
+              "components": {
+                "component": [
+                  {
+                    "entity": "CH.ifa.draw.framework.Figure",
+                    "_roleKind": "AbstractClass"
+                  }
+                ]
+              },
+              "concreteComponents": {
+                "concreteComponent": [
+                  {
+                    "entity": "CH.ifa.draw.figures.EllipseFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ImageFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.PolygonFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.RectangleFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.DiamondFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.TriangleFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.RoundRectangleFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.TextFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.net.NodeFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.NumberTextFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.GroupFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.StandardDrawing",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.BouncingDrawing",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.PolyLineFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.LineConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ElbowConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertDependency",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.LineFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.LineConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ElbowConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertDependency",
+                    "_roleKind": "Class"
+                  }
+                ]
+              },
+              "decorators": {
+                "decorator": [{
+                  "entity": "CH.ifa.draw.standard.DecoratorFigure",
+                  "_roleKind": "AbstractClass"
+                }]
+              },
+              "concreteDecorators": {
+                "concreteDecorator": [
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.AnimationDecorator",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.BorderDecorator",
+                    "_roleKind": "Class"
+                  }
+                ]
+              }
+            },
+            "_number": 76
+          }
+        ]
+      },
+      "_name": "Decorator"
+    },
+    {
+      "microArchitectures": {
+        "microArchitecture": [
+          {
+            "roles": {
+              "products": {
+                "product": [
+                  {
+                    "entity": "CH.ifa.draw.framework.Connector",
+                    "_roleKind": "AbstractClass"
+                  }
+                ]
+              },
+              "concreteProducts": {
+                "concreteProduct": [
+                  {
+                    "entity": "CH.ifa.draw.standard.ChopBoxConnector",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ChopEllipseConnector",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.ChopPolygonConnector",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.PolyLineConnector",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.LocatorConnector",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ShortestDistanceConnector",
+                    "_roleKind": "Class"
+                  }
+                ]
+              },
+              "creators": {
+                "creator": [{
+                  "entity": "CH.ifa.draw.framework.Figure",
+                  "_roleKind": "AbstractClass"
+                }]
+              },
+              "concreteCreators": {
+                "concreteCreator": [
+                  {
+                    "entity": "CH.ifa.draw.standard.AbstractFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.EllipseFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.PolygonFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.RoundRectangleFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.PolyLineFigure",
+                    "_roleKind": "Class"
+                  }
+                ]
+              }
+            },
+            "_number": 77
+          },
+          {
+            "roles": {
+              "products": {
+                "product": [
+                  {
+                    "entity": "CH.ifa.draw.framework.Handle",
+                    "_roleKind": "AbstractClass"
+                  }
+                ]
+              },
+              "concreteProducts": {
+                "concreteProduct": [
+                  {
+                    "entity": "CH.ifa.draw.standard.EastHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.NorthHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.NorthEastHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.NorthWestHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.SouthHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.SouthEastHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.SouthWestHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.WestHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.PolygonHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.PolygonScaleHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.TriangleRotationHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.NullHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.FontSizeHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.ConnectionHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.GroupHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.ChangeConnectionStartHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.PolyLineHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.ChangeConnectionEndHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ElbowHandle",
+                    "_roleKind": "Class"
+                  }
+                ]
+              },
+              "creators": {
+                "creator": [{
+                  "entity": "CH.ifa.draw.framework.Figure",
+                  "_roleKind": "AbstractClass"
+                }]
+              },
+              "concreteCreators": {
+                "concreteCreator": [
+                  {
+                    "entity": "CH.ifa.draw.figures.EllipseFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ImageFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.PolygonFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.RectangleFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.DiamondFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.TriangleFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.RoundRectangleFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.TextFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.net.NodeFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.NumberTextFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.GroupFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.StandardDrawing",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.BouncingDrawing",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.AnimationDecorator",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.BorderDecorator",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.PolyLineFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.LineConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ElbowConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertDependency",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.LineFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.LineConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ElbowConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertDependency",
+                    "_roleKind": "Class"
+                  }
+                ]
+              }
+            },
+            "_number": 78
+          },
+          {
+            "roles": {
+              "products": {
+                "product": [
+                  {
+                    "entity": "CH.ifa.draw.framework.Tool",
+                    "_roleKind": "AbstractClass"
+                  }
+                ]
+              },
+              "concreteProducts": {
+                "concreteProduct": [
+                  {
+                    "entity": "CH.ifa.draw.standard.HandleTracker",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.DragTracker",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.SelectAreaTracker",
+                    "_roleKind": "Class"
+                  }
+                ]
+              },
+              "concreteCreators": {
+                "concreteCreator": [
+                  {
+                    "entity": "CH.ifa.draw.standard.SelectionTool",
+                    "_roleKind": "Class"
+                  }
+                ]
+              }
+            },
+            "_number": 79
+          }
+        ]
+      },
+      "_name": "Factory Method"
+    },
+    {
+      "microArchitectures": {
+        "microArchitecture": [
+          {
+            "roles": {
+              "nullObjects": {
+                "nullObject": [{
+                  "entity": "CH.ifa.draw.standard.NullHandle",
+                  "_roleKind": "Class"
+                }]
+              }
+            },
+            "_number": 80
+          }
+        ]
+      },
+      "_name": "Null Object"
+    },
+    {
+      "microArchitectures": {
+        "microArchitecture": [
+          {
+            "roles": {
+              "subjects": {
+                "subject": [{
+                  "entity": "CH.ifa.draw.framework.Figure",
+                  "_roleKind": "AbstractClass"
+                }]
+              },
+              "concreteSubjects": {
+                "concreteSubject": [
+                  {
+                    "entity": "CH.ifa.draw.figures.EllipseFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ImageFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.PolygonFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.RectangleFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.DiamondFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.TriangleFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.RoundRectangleFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.TextFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.net.NodeFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.NumberTextFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.GroupFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.StandardDrawing",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.BouncingDrawing",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.AnimationDecorator",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.BorderDecorator",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.PolyLineFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.LineConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ElbowConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertDependency",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.LineFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.LineConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ElbowConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertDependency",
+                    "_roleKind": "Class"
+                  }
+                ]
+              },
+              "observers": {
+                "observer": [
+                  {
+                    "entity": "CH.ifa.draw.framework.FigureChangeListener",
+                    "_roleKind": "AbstractClass"
+                  }
+                ]
+              },
+              "concreteObservers": {
+                "concreteObserver": [
+                  {
+                    "entity": "CH.ifa.draw.figures.GroupFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.StandardDrawing",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.BouncingDrawing",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.AnimationDecorator",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.BorderDecorator",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.FigureChangeEventMulticaster",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.TextFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.net.NodeFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.NumberTextFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.LineConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ElbowConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertDependency",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.StandardDrawing",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.BouncingDrawing",
+                    "_roleKind": "Class"
+                  }
+                ]
+              }
+            },
+            "_number": 81
+          },
+          {
+            "roles": {
+              "subjects": {
+                "subject": [{
+                  "entity": "CH.ifa.draw.framework.Drawing",
+                  "_roleKind": "AbstractClass"
+                }]
+              },
+              "concreteSubjects": {
+                "concreteSubject": [
+                  {
+                    "entity": "CH.ifa.draw.standard.StandardDrawing",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.BouncingDrawing",
+                    "_roleKind": "Class"
+                  }
+                ]
+              },
+              "observers": {
+                "observer": [
+                  {
+                    "entity": "CH.ifa.draw.framework.DrawingChangeListener",
+                    "_roleKind": "AbstractClass"
+                  }
+                ]
+              },
+              "concreteObservers": {
+                "concreteObserver": [
+                  {
+                    "entity": "CH.ifa.draw.standard.StandardDrawingView",
+                    "_roleKind": "Class"
+                  }
+                ]
+              }
+            },
+            "_number": 82
+          },
+          {
+            "roles": {
+              "subjects": {
+                "subject": [{
+                  "entity": "CH.ifa.draw.framework.Connector",
+                  "_roleKind": "AbstractClass"
+                }]
+              },
+              "concreteSubjects": {
+                "concreteSubject": [
+                  {
+                    "entity": "CH.ifa.draw.standard.ChopBoxConnector",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.LocatorConnector",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ShortestDistanceConnector",
+                    "_roleKind": "Class"
+                  }
+                ]
+              },
+              "observers": {
+                "observer": [
+                  {
+                    "entity": "CH.ifa.draw.framework.ConnectionFigure",
+                    "_roleKind": "AbstractClass"
+                  }
+                ]
+              },
+              "concreteObservers": {
+                "concreteObserver": [
+                  {
+                    "entity": "CH.ifa.draw.figures.LineConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ElbowConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertDependency",
+                    "_roleKind": "Class"
+                  }
+                ]
+              }
+            },
+            "_number": "82b"
+          }
+        ]
+      },
+      "_name": "Observer"
+    },
+    {
+      "microArchitectures": {
+        "microArchitecture": [
+          {
+            "roles": {
+              "clients": {
+                "client": [
+                  {
+                    "entity": "CH.ifa.draw.standard.ConnectionHandle",
+                    "_roleKind": "AbstractClass"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.ConnectionTool",
+                    "_roleKind": "AbstractClass"
+                  }
+                ]
+              },
+              "prototypes": {
+                "prototype": [{
+                  "entity": "CH.ifa.draw.framework.ConnectionFigure",
+                  "_roleKind": "AbstractClass"
+                }]
+              },
+              "concretePrototypes": {
+                "concretePrototype": [
+                  {
+                    "entity": "CH.ifa.draw.figures.LineConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ElbowConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertDependency",
+                    "_roleKind": "Class"
+                  }
+                ]
+              }
+            },
+            "_number": 83
+          },
+          {
+            "roles": {
+              "clients": {
+                "client": [
+                  {
+                    "entity": "CH.ifa.draw.standard.CreationTool",
+                    "_roleKind": "AbstractClass"
+                  }
+                ]
+              },
+              "prototypes": {
+                "prototype": [{
+                  "entity": "CH.ifa.draw.framework.Figure",
+                  "_roleKind": "AbstractClass"
+                }]
+              },
+              "concretePrototypes": {
+                "concretePrototype": [
+                  {
+                    "entity": "CH.ifa.draw.figures.EllipseFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ImageFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.PolygonFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.RectangleFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.DiamondFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.TriangleFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.RoundRectangleFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.TextFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.net.NodeFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.NumberTextFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.GroupFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.StandardDrawing",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.BouncingDrawing",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.AnimationDecorator",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.BorderDecorator",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.PolyLineFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.LineConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ElbowConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertDependency",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.LineFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.LineConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ElbowConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertDependency",
+                    "_roleKind": "Class"
+                  }
+                ]
+              }
+            },
+            "_number": 84
+          }
+        ]
+      },
+      "_name": "Prototype"
+    },
+    {
+      "microArchitectures": {
+        "microArchitecture": [
+          {
+            "roles": {
+              "singletons": {
+                "singleton": [{
+                  "entity": "CH.ifa.draw.util.Clipboard",
+                  "_roleKind": "Class"
+                }]
+              }
+            },
+            "_number": 85
+          },
+          {
+            "roles": {
+              "singletons": {
+                "singleton": [{
+                  "entity": "CH.ifa.draw.util.Iconkit",
+                  "_roleKind": "Class"
+                }]
+              }
+            },
+            "_number": 86
+          }
+        ]
+      },
+      "_name": "Singleton"
+    },
+    {
+      "microArchitectures": {
+        "microArchitecture": [
+          {
+            "roles": {
+              "contexts": {
+                "context": [
+                  {
+                    "entity": "CH.ifa.draw.standard.StandardDrawingView",
+                    "_roleKind": "Class"
+                  }
+                ]
+              },
+              "states": {
+                "state": [
+                  {
+                    "entity": "CH.ifa.draw.framework.Tool",
+                    "_roleKind": "AbstractClass"
+                  }
+                ]
+              },
+              "concreteStates": {
+                "concreteState": [
+                  {
+                    "entity": "CH.ifa.draw.standard.AbstractTool",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.BorderTool",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.ConnectionTool",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.CreationTool",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertFigureCreationTool",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.TextTool",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ConnectedTextTool",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.DragTracker",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.FollowURLTool",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.HandleTracker",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.PolygonTool",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ScribbleTool",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.SelectAreaTracker",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.SelectionTool",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.MySelectionTool",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.URLTool",
+                    "_roleKind": "Class"
+                  }
+                ]
+              }
+            },
+            "_number": 87
+          },
+          {
+            "roles": {
+              "contexts": {
+                "context": [
+                  {
+                    "entity": "CH.ifa.draw.standard.SelectionTool",
+                    "_roleKind": "Class"
+                  }
+                ]
+              },
+              "states": {
+                "state": [
+                  {
+                    "entity": "CH.ifa.draw.framework.Tool",
+                    "_roleKind": "AbstractClass"
+                  }
+                ]
+              },
+              "concreteStates": {
+                "concreteState": [
+                  {
+                    "entity": "CH.ifa.draw.standard.DragTracker",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.HandleTracker",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.SelectAreaTracker",
+                    "_roleKind": "Class"
+                  }
+                ]
+              }
+            },
+            "_number": 88
+          },
+          {
+            "roles": {
+              "contexts": {
+                "context": [
+                  {
+                    "entity": "CH.ifa.draw.framework.DrawingView",
+                    "_roleKind": "Class"
+                  }
+                ]
+              },
+              "states": {
+                "state": [{
+                  "entity": "CH.ifa.draw.framework.Tool",
+                  "_roleKind": "AbstractClass"
+                }]
+              },
+              "concreteStates": {
+                "concreteState": [
+                  {
+                    "entity": "CH.ifa.draw.standard.AbstractTool",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.BorderTool",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.ConnectionTool",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.CreationTool",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertFigureCreationTool",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.TextTool",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ConnectedTextTool",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.DragTracker",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.FollowURLTool",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.HandleTracker",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.PolygonTool",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ScribbleTool",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.SelectAreaTracker",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.SelectionTool",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.MySelectionTool",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.URLTool",
+                    "_roleKind": "Class"
+                  }
+                ]
+              }
+            },
+            "_number": "88b"
+          }
+        ]
+      },
+      "_name": "State"
+    },
+    {
+      "microArchitectures": {
+        "microArchitecture": [
+          {
+            "roles": {
+              "contexts": {
+                "context": [
+                  {
+                    "entity": "CH.ifa.draw.figures.LineConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.PolygonFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.EllipseFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.PolyLineFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.RoundRectangleFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.net.NodeFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.AbstractFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.DecoratorFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.framework.ConnectionFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.ConnectionTool",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.ChangeConnectionHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.ConnectionHandle",
+                    "_roleKind": "Class"
+                  }
+                ]
+              },
+              "strategies": {
+                "strategy": [
+                  {
+                    "entity": "CH.ifa.draw.framework.Connector",
+                    "_roleKind": "AbstractClass"
+                  }
+                ]
+              },
+              "concreteStrategies": {
+                "concreteStrategy": [
+                  {
+                    "entity": "CH.ifa.draw.standard.ChopBoxConnector",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ChopEllipseConnector",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.ChopPolygonConnector",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.PolyLineConnector",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.LocatorConnector",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ShortestDistanceConnector",
+                    "_roleKind": "Class"
+                  }
+                ]
+              }
+            },
+            "comment": "The ConnectionFigure interface defines actually the Strategy design pattern.",
+            "_number": 89
+          },
+          {
+            "roles": {
+              "contexts": {
+                "context": [
+                  {
+                    "entity": "CH.ifa.draw.standard.StandardDrawingView",
+                    "_roleKind": "Class"
+                  }
+                ]
+              },
+              "strategies": {
+                "strategy": [
+                  {
+                    "entity": "CH.ifa.draw.framework.Painter",
+                    "_roleKind": "AbstractClass"
+                  }
+                ]
+              },
+              "concreteStrategies": {
+                "concreteStrategy": [
+                  {
+                    "entity": "CH.ifa.draw.standard.BufferedUpdateStrategy",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.PatternPainter",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.SimpleUpdateStrategy",
+                    "_roleKind": "Class"
+                  }
+                ]
+              }
+            },
+            "comment": "The DrawingView interface defines actually the Strategy design pattern.",
+            "_number": 90
+          },
+          {
+            "roles": {
+              "contexts": {
+                "context": [
+                  {
+                    "entity": "CH.ifa.draw.contrib.PolygonHandle",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.TextFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.LocatorConnector",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.LocatorHandle",
+                    "_roleKind": "Class"
+                  }
+                ]
+              },
+              "strategies": {
+                "strategy": [
+                  {
+                    "entity": "CH.ifa.draw.framework.Locator",
+                    "_roleKind": "AbstractClass"
+                  }
+                ]
+              },
+              "concreteStrategies": {
+                "concreteStrategy": [
+                  {
+                    "entity": "CH.ifa.draw.figures.ElbowTextLocator",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.OffsetLocator",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.PolyLineLocator",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.RelativeLocator",
+                    "_roleKind": "Class"
+                  }
+                ]
+              }
+            },
+            "_number": 91
+          },
+          {
+            "roles": {
+              "contexts": {
+                "context": [
+                  {
+                    "entity": "CH.ifa.draw.standard.StandardDrawingView",
+                    "_roleKind": "Class"
+                  }
+                ]
+              },
+              "strategies": {
+                "strategy": [
+                  {
+                    "entity": "CH.ifa.draw.framework.PointConstrainer",
+                    "_roleKind": "AbstractClass"
+                  }
+                ]
+              },
+              "concreteStrategies": {
+                "concreteStrategy": [
+                  {
+                    "entity": "CH.ifa.draw.standard.GridConstrainer",
+                    "_roleKind": "Class"
+                  }
+                ]
+              }
+            },
+            "comment": "The DrawingView interface defines actually the Strategy design pattern.",
+            "_number": 92
+          }
+        ]
+      },
+      "_name": "Strategy"
+    },
+    {
+      "microArchitectures": {
+        "microArchitecture": [
+          {
+            "roles": {
+              "abstractClasses": {
+                "abstractClass": [
+                  {
+                    "entity": "CH.ifa.draw.standard.AbstractFigure",
+                    "_roleKind": "AbstractClass"
+                  }
+                ]
+              },
+              "concreteClasses": {
+                "concreteClass": [
+                  {
+                    "entity": "CH.ifa.draw.figures.EllipseFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ImageFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.PolygonFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.RectangleFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.DiamondFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.TriangleFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.RoundRectangleFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.TextFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.net.NodeFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.NumberTextFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.GroupFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.standard.StandardDrawing",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.BouncingDrawing",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.javadraw.AnimationDecorator",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.BorderDecorator",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.PolyLineFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.LineConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ElbowConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertDependency",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.LineFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.LineConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ElbowConnection",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.pert.PertDependency",
+                    "_roleKind": "Class"
+                  }
+                ]
+              }
+            },
+            "_number": 93
+          },
+          {
+            "roles": {
+              "abstractClasses": {
+                "abstractClass": [
+                  {
+                    "entity": "CH.ifa.draw.figures.AttributeFigure",
+                    "_roleKind": "AbstractClass"
+                  }
+                ]
+              },
+              "concreteClasses": {
+                "concreteClass": [
+                  {
+                    "entity": "CH.ifa.draw.figures.EllipseFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.ImageFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.PolygonFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.RectangleFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.DiamondFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.contrib.TriangleFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.RoundRectangleFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.TextFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.samples.net.NodeFigure",
+                    "_roleKind": "Class"
+                  },
+                  {
+                    "entity": "CH.ifa.draw.figures.NumberTextFigure",
+                    "_roleKind": "Class"
+                  }
+                ]
+              }
+            },
+            "_number": 94
+          }
+        ]
+      },
+      "_name": "Template Method"
+    }
+  ],
+  "_type": "Java"
+}

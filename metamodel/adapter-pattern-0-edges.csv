@@ -1,0 +1,5 @@
+source,target,interaction
+n1,n0,involves
+n1,n2,involves
+n1,n3,involves
+n1,n4,involves

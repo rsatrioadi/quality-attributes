@@ -1,0 +1,11 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+JHotDraw-5.1-clean,CH.ifa.draw.applet,DrawApplet,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: IMAGES
+JHotDraw-5.1-clean,CH.ifa.draw.application,DrawApplication,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: IMAGES; FILE_MENU; EDIT_MENU; ALIGNMENT_MENU; ATTRIBUTES_MENU
+JHotDraw-5.1-clean,CH.ifa.draw.figures,PolyLineFigure,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: ARROW_TIP_NONE; ARROW_TIP_START; ARROW_TIP_END; ARROW_TIP_BOTH
+JHotDraw-5.1-clean,CH.ifa.draw.framework,DrawingView,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9
+JHotDraw-5.1-clean,CH.ifa.draw.framework,FigureSelection,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: TYPE
+JHotDraw-5.1-clean,CH.ifa.draw.framework,Handle,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: HANDLESIZE
+JHotDraw-5.1-clean,CH.ifa.draw.standard,AbstractHandle,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: HANDLESIZE
+JHotDraw-5.1-clean,CH.ifa.draw.standard,AlignCommand,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: LEFTS; CENTERS; RIGHTS; TOPS; MIDDLES; BOTTOMS
+JHotDraw-5.1-clean,CH.ifa.draw.standard,LocatorConnector,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: SIZE
+JHotDraw-5.1-clean,CH.ifa.draw.util,Geom,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: NORTH; SOUTH; WEST; EAST

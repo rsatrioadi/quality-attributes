@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph role="type" edgeids="false" edgemode="directed" id="quality-tactic-pattern">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n0">
+            <attr name="layout">
+                <string>208 78 133 24</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>246 501 47 24</string>
+            </attr>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>411 270 67 24</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>82 286 97 24</string>
+            </attr>
+        </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>229 630 59 24</string>
+            </attr>
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>893 55 99 48</string>
+            </attr>
+        </node>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>type:QualityAttribute</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n5">
+            <attr name="label">
+                <string>sub:</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>type:Tactic</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n2">
+            <attr name="label">
+                <string>facilitates</string>
+            </attr>
+            <attr name="layout">
+                <string>420 0 269 513 444 282 11</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n2">
+            <attr name="label">
+                <string>hinders</string>
+            </attr>
+            <attr name="layout">
+                <string>420 0 269 513 444 282 11</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n5">
+            <attr name="label">
+                <string>sub:</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n0">
+            <attr name="label">
+                <string>supports</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>type:Measure</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n5">
+            <attr name="label">
+                <string>sub:</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n0">
+            <attr name="label">
+                <string>measures</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>type:TacticGroup</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n0">
+            <attr name="label">
+                <string>supports</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n1">
+            <attr name="label">
+                <string>includes</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n5">
+            <attr name="label">
+                <string>sub:</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n4">
+            <attr name="label">
+                <string>type:Pattern</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n5">
+            <attr name="label">
+                <string>sub:</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n1">
+            <attr name="label">
+                <string>employs</string>
+            </attr>
+            <attr name="layout">
+                <string>565 6 258 642 269 513 11</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n5">
+            <attr name="label">
+                <string>type:Named</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n5">
+            <attr name="label">
+                <string>string:name</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
